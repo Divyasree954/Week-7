@@ -1,0 +1,224 @@
+/* App.css */
+
+/* Header Component */
+.header {
+  background-color: #4CAF50;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* Footer Component */
+.footer {
+  background-color: #f1f1f1;
+  padding: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  color: #0056b3;
+}
+
+/* NavigationMenu Component */
+.navigation-menu {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+.navigation-menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.navigation-menu a:hover {
+  text-decoration: underline;
+}
+
+/* Banner Component */
+.banner {
+  background-image: url('https://via.placeholder.com/1500x400');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* LoginForm Component */
+.login-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.login-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+/* ContactForm Component */
+.contact-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #218838;
+}
+
+/* Dashboard Component */
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Notification Component */
+.notification {
+  padding: 15px;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.notification.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.notification.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.notification.warning {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+/* Sidebar Component */
+.sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #343a40;
+  padding: 20px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* Modal Component */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  width: 500px;
+}
+
+.modal .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
